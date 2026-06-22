@@ -11,6 +11,6 @@ class AntigravityIde < Formula
   end
 
   test do
-    assert_predicate bin/"antigravity-ide-helper", :exist?
+    assert_predicate bin/"antigravity-ide", :exist?
   end
 end
