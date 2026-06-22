@@ -4,14 +4,14 @@ class AntigravityCli < Formula
   homepage "https://github.com/saharshpoddarorg/homebrew-internal"
   
   # TODO: Update this URL to point to your actual GitHub Release tarball or zip
-  url "https://github.com/saharshpoddarorg/antigravity-cli/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/saharshpoddarorg/homebrew-internal-releases/releases/download/v1.0.0/antigravity-cli-v1.0.0.tar.gz"
   
   # TODO: Replace with the actual SHA-256 checksum of your release asset
   # Generate on Mac/Linux via: shasum -a 256 <filename>
   # Generate on Windows (PowerShell) via: Get-FileHash <filename> -Algorithm SHA256
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "2E83DCD4C0932049DFF2CE6E60B13A610CBC2E6F63EEE76CFE5A46E80FD2EB59"
   
-  version "0.1.0"
+  version "1.0.0"
 
   def install
     # 'bin.install' moves the compiled binary into the Homebrew symlink directory
