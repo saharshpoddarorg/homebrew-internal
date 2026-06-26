@@ -6,7 +6,7 @@ class AntigravityCli < Formula
   version "1.0.0"
 
   def install
-    bin.install "antigravity-cli"
+    bin.install "agy"
   end
 
   test do
